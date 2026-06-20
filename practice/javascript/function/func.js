@@ -15,21 +15,38 @@
 // }
 // console.log(mul(10,20));
 
-function type(item)
-{
-    const fruits=["apple","banana","cherry"];
-    const flowers=["rose","sunflower","lily"];
+// function type(item)
+// {
+//     const fruits=["apple","banana","cherry"];
+//     const flowers=["rose","sunflower","lily"];
 
-    if(fruits.includes(item.toLowerCase()))
+//     if(fruits.includes(item.toLowerCase()))
+//     {
+//         return "this is fruit";
+//     }else if(flowers.includes(item.toLowerCase()))
+//     {
+//         return "this is flower";
+//     }else {
+//         return "unknown item";
+//     }
+
+// }
+// console.log(type("apple"));
+// console.log(type("rose"));
+
+const even=()=>{
+    if(4%2==0)
     {
-        return "this is fruit";
-    }else if(flowers.includes(item.toLowerCase()))
-    {
-        return "this is flower";
-    }else {
-        return "unknown item";
+        return "this is even";
+
     }
-
+    else
+    {
+        return "this is odd";
+    }
 }
-console.log(type("apple"));
-console.log(type("rose"));
+const res=even();
+console.log(res);
+
+// means when we use the return word then we need to print result outside of that function otherwise 
+// if we used console.log() then there is no need of printing the result..
