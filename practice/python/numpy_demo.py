@@ -26,8 +26,13 @@ import numpy as np
 # print(empty)
 # //garbage values
 
+<<<<<<< HEAD
 # identify =np.eye(3)
 # print(identify)
 # //here np.eye(3) means identify matrix with 3*3 matrix
 # and main diagonal contains 1's and others are zero
 
+=======
+identify =np.eye(3)
+print(identify)
+>>>>>>> 7a3f1fc803b33faf0ac200d79342427a2d0b6bf9
